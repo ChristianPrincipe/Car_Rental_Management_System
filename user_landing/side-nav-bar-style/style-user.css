@@ -1,0 +1,137 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  overscroll-behavior: none;
+}
+
+body {
+  background-color: #f7f8f3;
+  font-family: Arial, sans-serif;
+}
+
+/* SIDEBAR */
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 90px;
+  height: 100vh;
+  background-color: #f1f1e8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10px;
+  border-right: 2px solid #ccc;
+}
+
+.sidebar .logo {
+  width: 80px;  /* Try 60 or 70 for visibility */
+  margin-bottom: 25px;
+}
+.sidebar img {
+  width: 35px;
+  cursor: pointer;
+}
+
+.sidebar a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  color: #333;
+  font-size: 13px;
+  margin: 10px 0;
+}
+
+.sidebar a:hover{
+  color: #F0A500;
+}
+
+.sidebar a span {
+  margin-top: 5px;
+  font-size: 11px;
+  text-align: center;
+}
+
+/* TOPBAR */
+.topbar {
+  margin-left: 90px;
+  background-color: #fff;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 40px;
+  border-bottom: 1px solid #000;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  border: 1px solid black;
+  border-radius: 30px;
+  width: 300px;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+}
+
+.search-bar input {
+  border: none;
+  outline: none;
+  width: 100%;
+  padding: 5px 10px;
+  border-radius: 20px;
+}
+
+.search-bar img {
+  width: 35px;
+  height: 35px;
+  margin-left: 5px;
+  border-radius: 50%;
+  padding: 1px;
+  cursor: pointer;
+}
+
+/* ACCOUNT SECTION */
+.account-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 12px;
+  color: #333;
+  cursor: pointer;
+}
+
+
+.account-info img {
+  width: 25px;
+}
+
+/* MAIN CONTENT */
+.main-content {
+  margin-left: 90px;
+  padding: 20px;
+}
+
+.main-content h4 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.main-content h4 span {
+  color: orange;
+}
+
+/* CONTENT BOX */
+.lading-page-content {
+  width: 100%;
+  border-radius: 15px;
+  border: solid 1px #F0A500;
+  padding: 20px;
+  background-color: white;
+  margin: 0 auto;
+}

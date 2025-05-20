@@ -1,0 +1,361 @@
+*{
+    padding: 0;
+    margin: 0;
+    overscroll-behavior: none;
+}
+
+/* header start */
+header{
+    background-color: #ffffff;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9;
+    position: sticky;
+    top: 0;
+}
+
+.top-nav-bar{
+    background-color: #212121;
+    width: 40rem;
+    border-radius: 40px;
+    padding: 5px;
+}
+
+
+.top-nav-bar img{
+    width: 35px;
+    margin: 0;
+}
+
+.top-nav-bar h1{
+    font-size: 13px;
+    color: white;
+    margin-left: 2px;
+    margin: 1px;
+}
+
+.login-button-design {
+    background-color: #F0A500;
+    border-radius: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 13px;
+    font-weight: bolder;
+    border: none; /* optional: remove Bootstrap default border */
+    text-decoration: none;
+    color: white;
+}
+
+.login-button-design a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+.login-button-design:hover {  /* Fixed typo here */
+    background-color: #ca9217;  /* Hover background color */    
+}
+
+
+
+
+.nav-list ul li a{
+    color: white;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+
+.nav-links a {
+    position: relative;
+    text-decoration: none; /* remove underline */
+    color: inherit; /* optional: keeps text same color */
+    padding-bottom: 5px;
+}
+
+.nav-links a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: #F0A500; /* yellow line */
+    transition: width 0.3s ease;
+}
+
+.nav-links a:hover::after {
+    width: 100%;
+}
+
+/* header end */
+
+
+
+/* text and cars */
+
+.lading-page-content{
+    width: 85%;
+    border-radius: 30px;
+    border: solid 1px rgb(179, 176, 176);
+}
+
+
+.landing-info{
+    margin-bottom: 20px;
+}
+
+.shape{
+    width: 100%;
+}
+
+.shape img{
+    width: 100%;
+    height: auto;
+}
+
+.landing-car-img{
+    width: 40%;
+    margin-right: 40px;
+}
+
+.logo {
+    width: 100%;   
+    max-width: 120px; 
+    height: auto;  
+    padding-top: 10px;
+    padding-right: 30px;
+}
+
+.car{
+    width: 100%;
+}
+
+.text-container{
+    width: 50%;
+}
+
+.text{
+    width: 83%;
+}
+
+.text h1{
+    font-size: 40px;
+    font-weight: bolder;
+    color: black;
+}
+
+.text p{
+    font-size: 12px;
+    width: 80%;
+}
+
+.latest-cars{
+    background-color: #ffffff;
+    border: solid 1px #F0A500;
+    width: 85%;
+    border-radius: 20px;
+    z-index: 1;
+}
+
+/* text car end */
+
+
+
+/* latest inevtory start */
+.rental-car{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: auto;
+    height: auto; 
+    /* border: solid 1.5px  #F0A500; */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* individula car design */
+.car-image img{
+    width: 230px;
+    height: 140px;
+    border-radius: 10px;
+}
+
+.rental-car h4{
+    align-self: flex-start;
+    margin: 0;
+    margin-top: 2px;
+}
+
+.ratings{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+}
+
+.ratings {
+    display: flex;
+    justify-content: center;
+    align-self: flex-start;
+    gap: 10px; 
+}
+
+.calculation p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 18px;
+    height: 20px;
+    border: solid 1px #F0A500;
+    border-radius: 50%;  
+    color: rgb(0, 0, 0);
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.rental-icon{
+    display: flex;
+    align-items: last baseline;
+}
+
+.rental-car h6{
+    gap: 6px;
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+}
+
+.rental-car h6 img{
+    width: 20px; 
+    height: 20px;
+}
+
+.rental-icon .peso-icon{
+    width: 18px;
+    height: 17px;
+}
+
+.rent-now-button{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rent-now-button-design{
+    all: unset;
+    padding-right: 40px;
+    padding-left: 40px; 
+    padding-top: 3px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    background-color: #212121;
+}
+
+.rent-now-button-design a{
+    margin-left: 5px;
+    color: #F0A500;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.rent-now-button-design a:hover {
+    color: white;
+}
+
+.rent-now-button-design img{
+    width: 20px;
+}
+
+/* individula car design end*/
+
+
+.see-all-button{
+    width: 150px;
+}
+
+.see-all-button {
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    border: solid 1px #F0A500;
+    background-color: transparent; 
+}
+
+.see-all-button a {
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    display: block; 
+}
+
+.see-all-button:hover {
+    background-color: #F0A500; 
+}
+
+/* latest inventory end */
+
+
+/* why choose us to get started */
+.why-choose-us-container{
+    margin-top: 150px;
+}
+
+.why-choose-us-container h1{
+    margin-bottom: 50px;
+}
+
+.why-choose-us-info{
+    width: 28rem;
+    margin: 20px;
+}
+
+.why-choose-us-info img{
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.text-info h6{
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+}
+
+.text-info p{
+    color: black;
+    font-size: 14px;
+}
+
+.get-stared-text h2{
+    color: #F0A500;
+    font-size: 26px;
+}
+
+.get-stared-text p{
+    color: white;
+    font-size: 14px;
+}
+/* end */
+
+
+
+footer{
+    width: 100%;
+    height: 20vh;
+    margin-top: 30px;
+    background-color: #212121;
+}
+
+
+
+
+
