@@ -17,9 +17,9 @@ Steps:
 6. Import the downloaded SQL file the_final_rental.sql.
 
 7. Access the system in your browser at:
-User side: http://localhost/Final_rental/login-forms/user-login.php
-Owner side: http://localhost/Final_rental/login-forms/owner-login.php
-Admin side: http://localhost/Final_rental/login-forms/admin-login.php
+User side: http://localhost/Final_rental/Login-forms/user-login.php
+Owner side: http://localhost/Final_rental/Login-forms/owner-login.php
+Admin side: http://localhost/Final_rental/Login-forms/admin-login.php
 
 8. Use the default login credentials:
 Admin: username admin, password admin123
