@@ -41,6 +41,7 @@ $sql = "
     INNER JOIN transmissionType ON cars.transmissionType_id = transmissionType.transmissionType_id
     INNER JOIN fuelType ON cars.fuelType_id = fuelType.fuelType_id
     WHERE cars.branch_id = ? 
+    ORDER BY cars.created_at DESC
 ";
 
 $stmt = $pdo->prepare($sql);
