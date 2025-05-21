@@ -1,6 +1,6 @@
 /vendor/
 *.log
-*.sql
+#*.sql
 *.env
 .vscode/
 .idea/
